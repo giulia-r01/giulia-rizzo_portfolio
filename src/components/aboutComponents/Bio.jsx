@@ -5,7 +5,7 @@ const Bio = ({ showButton = false }) => {
     <div className="mb-12 flex flex-col md:flex-row items-center md:items-start max-w-5xl px-0 mx-auto">
       <div className="mb-6 md:mb-0 md:mr-8 flex-shrink-0">
         <img
-          src="/src/assets/img/me.jpg"
+          src="./img/me.jpg"
           alt="Giulia Rizzo"
           className="w-56 h-72 rounded object-fill"
         />
