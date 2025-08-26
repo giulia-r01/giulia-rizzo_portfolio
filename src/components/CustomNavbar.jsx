@@ -7,7 +7,6 @@ const CustomNavbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const location = useLocation()
 
-  // Gestione stato attivo
   const isHomeActive = location.pathname === "/" && location.hash === ""
   const isAboutActive = location.pathname === "/about"
   const isProjectsActive = location.hash === "#projects"
@@ -26,7 +25,6 @@ const CustomNavbar = () => {
             Giulia Rizzo
           </div>
 
-          {/* Menu desktop */}
           <div className="hidden md:flex space-x-8">
             <NavLink to="/" className={linkClasses(isHomeActive)}>
               Home
@@ -50,7 +48,6 @@ const CustomNavbar = () => {
             </HashLink>
           </div>
 
-          {/* Hamburger mobile */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -82,38 +79,36 @@ const CustomNavbar = () => {
               </svg>
             </button>
           </div>
-        </div>
-
-        {/* Menu mobile */}
+        </div>{" "}
         {isOpen && (
           <div className="md:hidden mt-2 space-y-2 px-2 pb-3">
             <NavLink
               to="/"
               onClick={() => setIsOpen(false)}
-              className={linkClasses(isHomeActive)}
+              className={`${linkClasses(isHomeActive)} block`}
             >
               Home
             </NavLink>
             <NavLink
               to="/about"
               onClick={() => setIsOpen(false)}
-              className={linkClasses(isAboutActive)}
+              className={`${linkClasses(isHomeActive)} block`}
             >
               About
-            </NavLink>
+            </NavLink>{" "}
             <HashLink
               smooth
               to="/#projects"
               onClick={() => setIsOpen(false)}
-              className={linkClasses(isProjectsActive)}
+              className={`${linkClasses(isHomeActive)} block`}
             >
               Progetti
-            </HashLink>
+            </HashLink>{" "}
             <HashLink
               smooth
               to="/#contact"
               onClick={() => setIsOpen(false)}
-              className={linkClasses(isContactActive)}
+              className={`${linkClasses(isHomeActive)} block`}
             >
               Contatti
             </HashLink>

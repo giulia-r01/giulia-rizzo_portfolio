@@ -40,9 +40,7 @@ const Education = () => {
       className="py-12 px-6 sm:px-6 lg:px-12 bg-black flex flex-col items-center"
     >
       <h2 className="relative inline-block text-4xl font-bold text-white mb-12 pt-5 text-center">
-        <span className="relative z-10 whitespace-nowrap">
-          Istruzione & Formazione
-        </span>
+        <span className="relative z-10 whitespace-nowrap">Formazione</span>
         <span className="absolute bottom-1 left-2 w-full h-3 bg-[#847352] z-0"></span>
       </h2>
 

@@ -58,6 +58,8 @@ const Bio = ({ showButton = false }) => {
               Formazione
             </HashLink>
           )}
+        </div>
+        <div className="mt-5 pt-5">
           {showButton && (
             <HashLink
               smooth
