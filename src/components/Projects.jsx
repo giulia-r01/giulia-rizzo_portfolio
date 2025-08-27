@@ -18,7 +18,7 @@ const Projects = () => {
               </span>
               <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
             </h3>
-            <img src="./img/Just-Breathe.png" />
+            <img src="./img/Just-Breathe.png" alt="Mockup sito Just Breathe" />
             <p className="text-gray-600 my-4">
               <strong>Just Breathe</strong> – App full-stack di benessere
               digitale con diario, to-do, musica, respirazione guidata ed
@@ -43,7 +43,7 @@ const Projects = () => {
               <span className="relative z-10 whitespace-nowrap">Netflix</span>
               <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
             </h3>
-            <img src="./img/netflix.png" />
+            <img src="./img/netflix.png" alt="Mockup sito Netflix clone" />
             <p className="text-gray-600 my-4">
               <strong>Netflix clone</strong> – Replica front-end del sito
               Netflix basata su un mockup, con layout responsive e utilizzo di
@@ -70,7 +70,10 @@ const Projects = () => {
               </span>
               <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
             </h3>
-            <img src="./img/apple-music.png" />
+            <img
+              src="./img/apple-music.png"
+              alt="Mockup sito Apple Music clone"
+            />
             <p className="text-gray-600 my-4">
               <strong>Apple Music clone</strong> – Replica front-end del sito
               Apple Music, realizzata in React e TypeScript, con layout
@@ -97,7 +100,7 @@ const Projects = () => {
               <span className="relative z-10 whitespace-nowrap">My Meteo</span>
               <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
             </h3>
-            <img src="./img/mymeteo.png" />
+            <img src="./img/mymeteo.png" alt="Mockup sito My Meteo" />
             <p className="text-gray-600 my-4">
               <strong>My Meteo</strong> – App front-end per le previsioni meteo,
               sviluppata in React, che utilizza API esterne per mostrare dati
@@ -125,7 +128,7 @@ const Projects = () => {
               </span>
               <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
             </h3>
-            <img src="./img/spotify.png" />
+            <img src="./img/spotify.png" alt="Mockup sito Spotify clone" />
             <p className="text-gray-600 my-4">
               <strong>Spotify clone</strong> – Replica front-end del sito
               Spotify sviluppata in JavaScript in team, con layout responsive e
