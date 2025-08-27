@@ -58,6 +58,7 @@ const CustomNavbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               type="button"
               className="text-black hover:font-bold focus:outline-none focus:ring-2 focus:ring-black"
+              aria-label={isOpen ? "Chiudi menu" : "Apri menu"}
             >
               <svg
                 className="h-6 w-6"
@@ -82,6 +83,9 @@ const CustomNavbar = () => {
                   />
                 )}
               </svg>
+              <span className="sr-only">
+                {isOpen ? "Chiudi menu" : "Apri menu"}
+              </span>
             </button>
           </div>
         </div>{" "}
