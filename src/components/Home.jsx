@@ -17,7 +17,10 @@ const Home = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center bg-black py-20 px-6 sm:px-6 lg:px-12">
+      <section
+        className="flex flex-col items-center bg-black py-20 px-6 sm:px-6 lg:px-12"
+        id="home"
+      >
         <h2 className="relative text-3xl font-bold text-white mb-8 pt-5">
           <span className="relative z-10">About Me</span>
           <span className="absolute bottom-1 left-2 w-full h-3 bg-[#847352] z-0"></span>

@@ -39,12 +39,12 @@ const Bio = ({ showButton = false }) => {
           </span>
           .{" "}
         </p>
-        <div className="mt-5 pt-5">
+        <div className="mt-5 pt-5 flex flex-col md:flex-row md:justify-start md:items-center gap-3 w-auto">
           {showButton && (
             <HashLink
               smooth
               to="/about#work-experience"
-              className="mt-5 mr-2 px-6 py-3 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d] transition"
+              className="text-center px-6 py-3 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d] transition w-auto"
             >
               Esperienze
             </HashLink>
@@ -53,18 +53,16 @@ const Bio = ({ showButton = false }) => {
             <HashLink
               smooth
               to="/about#education"
-              className="mt-5 mr-2 px-6 py-3 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d]"
+              className="text-center px-6 py-3 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d] transition w-auto"
             >
               Formazione
             </HashLink>
           )}
-        </div>
-        <div className="mt-5 pt-5">
           {showButton && (
             <HashLink
               smooth
               to="/about#skills"
-              className="mt-5 px-6 py-3 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d]"
+              className="text-center px-6 py-3 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d] transition w-auto"
             >
               Skills
             </HashLink>

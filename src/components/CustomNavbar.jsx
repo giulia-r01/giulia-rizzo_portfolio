@@ -92,7 +92,7 @@ const CustomNavbar = () => {
             <NavLink
               to="/about"
               onClick={() => setIsOpen(false)}
-              className={`${linkClasses(isHomeActive)} block`}
+              className={`${linkClasses(isAboutActive)} block`}
             >
               About
             </NavLink>{" "}
@@ -100,7 +100,7 @@ const CustomNavbar = () => {
               smooth
               to="/#projects"
               onClick={() => setIsOpen(false)}
-              className={`${linkClasses(isHomeActive)} block`}
+              className={`${linkClasses(isProjectsActive)} block`}
             >
               Progetti
             </HashLink>{" "}
@@ -108,7 +108,7 @@ const CustomNavbar = () => {
               smooth
               to="/#contact"
               onClick={() => setIsOpen(false)}
-              className={`${linkClasses(isHomeActive)} block`}
+              className={`${linkClasses(isContactActive)} block`}
             >
               Contatti
             </HashLink>

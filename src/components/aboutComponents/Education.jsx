@@ -47,19 +47,14 @@ const Education = () => {
       <div className="space-y-12 w-full max-w-5xl">
         {experiences.map((exp, index) => (
           <div key={index} className="flex items-start space-x-4">
-            {/* Pallino */}
             <div className="mt-1 w-4 h-4 bg-[#D4CAB6] rounded-full flex-shrink-0"></div>
 
-            {/* Contenuto */}
             <div className="text-left">
-              {/* Period */}
               <p className="text-lg text-gray-50 mb-1 ">{exp.period}</p>
 
-              {/* Title & Company */}
               <h3 className="text-xl font-semibold text-white">{exp.title}</h3>
               <p className="text-white mb-2 font-semibold">{exp.company}</p>
 
-              {/* Activities */}
               <ul className="list-disc list-inside text-gray-50 space-y-1 text-lg font-semibold">
                 {exp.skillsDeveloped && (
                   <ul className="list-disc list-inside text-gray-50 space-y-1 text-lg font-semibold">
