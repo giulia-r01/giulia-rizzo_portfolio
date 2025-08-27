@@ -22,7 +22,12 @@ const CustomNavbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 text-2xl font-bold text-black">
-            Giulia Rizzo
+            <NavLink
+              to="/"
+              className="flex-shrink-0 text-2xl font-bold text-black hover:opacity-80 transition"
+            >
+              Giulia Rizzo
+            </NavLink>
           </div>
 
           <div className="hidden md:flex space-x-8">
