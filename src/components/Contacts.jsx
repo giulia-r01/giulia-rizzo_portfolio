@@ -36,7 +36,7 @@ const Contacts = () => {
             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.024-3.037-1.851-3.037-1.853 0-2.136 1.445-2.136 2.937v5.669H9.352V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.369-1.85 3.602 0 4.268 2.37 4.268 5.455v6.286zM5.337 7.433a2.062 2.062 0 11.001-4.123 2.062 2.062 0 01-.001 4.123zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.205 24 24 23.226 24 22.271V1.729C24 .774 23.205 0 22.225 0z" />
           </svg>
           <a
-            href="https://www.linkedin.com/in/giulia-rizzo-4782bb102/"
+            href="www.linkedin.com/in/giulia-rizzo-rg"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#D4CAB6] hover:underline"
