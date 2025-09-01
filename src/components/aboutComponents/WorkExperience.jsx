@@ -17,8 +17,7 @@ const WorkExperience = () => {
       period: "2018 - 2019",
       activities: [
         "Creazione siti WordPress responsive",
-        "Progettazione grafica e contenuti social",
-        "SEO e manutenzione con FileZilla",
+        "Gestione contenuti e copy per i social",
       ],
     },
   ]
