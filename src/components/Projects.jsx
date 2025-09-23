@@ -147,6 +147,33 @@ const Projects = () => {
             Visita
           </a>
         </div>
+
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
+          <div>
+            <h3 className="relative inline-block text-3xl font-bold text-black mb-8 pt-5">
+              <span className="relative z-10 whitespace-nowrap">
+                Recipes App
+              </span>
+              <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
+            </h3>
+            <img src="./img/Recipe-App.png" alt="Mockup sito Recipes App" />
+            <p className="text-gray-600 my-4">
+              <strong>Recipes App</strong> – App personale di ricette sviluppata
+              in React e TypeScript, con layout responsive e utilizzo di API
+              esterne per mostrare ricette, categorie e risultati di ricerca.
+              L’app è in lingua inglese.
+            </p>
+          </div>
+          <a
+            href="https://recipes-app-swart-tau.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visita il sito Recipes App"
+            className="text-center inline-block px-4 py-2 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d]"
+          >
+            Visita
+          </a>
+        </div>
       </div>
     </section>
   )
