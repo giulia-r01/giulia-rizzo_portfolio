@@ -26,7 +26,7 @@ const Projects = () => {
               JWT, API REST) sia il frontend (React, TypeScript, Bootstrap).
             </p>
           </div>
-          {/* <a
+          <a
             href="https://just-breathe.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -34,8 +34,8 @@ const Projects = () => {
             className="text-center inline-block px-4 py-2 bg-[#D4CAB6] text-black rounded-lg shadow-md hover:bg-[#c2b79d]"
           >
             Visita
-          </a> */}
-          <p className="text-center inline-block px-4 py-2 bg-[#e4e5e0] text-black rounded-lg shadow-md hover:bg-[#d7d7d7]">In manutenzione</p>
+          </a>
+          {/* <p className="text-center inline-block px-4 py-2 bg-[#e4e5e0] text-black rounded-lg shadow-md hover:bg-[#d7d7d7]">In manutenzione</p> */}
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
