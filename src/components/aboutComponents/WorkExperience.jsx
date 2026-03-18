@@ -1,6 +1,21 @@
 const WorkExperience = () => {
   const experiences = [
     {
+      title: "Sviluppatore Full Stack",
+      company:
+        "IoT Tecnologie",
+      period: "ott 2025 - attuale",
+      activities: [
+        "Contribuisco allo sviluppo e alla manutenzione del gestionale aziendale Nex, utilizzato per la gestione dei processi interni",
+"Implemento funzionalità frontend e backend utilizzando React e TypeScript",
+"Sviluppo e aggiorno interfacce utente e layout in base ai requisiti funzionali",
+"Gestisco dati e integrazioni tramite MongoDB",
+"Utilizzo strumenti come Docker per la gestione degli ambienti di sviluppo",
+"Collaboro con il team tecnico per l’analisi e l’implementazione delle soluzioni",
+"Contribuisco al miglioramento dell’esperienza utente, portando competenze pregresse in ambito UX",
+      ],
+    },
+    {
       title: "Operatrice Multimediale",
       company:
         "SSI Factory – per il Ministero dell’Economia e delle Finanze (MEF), Roma",
