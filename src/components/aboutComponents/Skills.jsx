@@ -23,12 +23,14 @@ const Skills = () => {
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
               {[
-                "Java",
-                "Spring Boot",
-                "JPA",
-                "PostgreSQL",
-                "REST API",
-                "JWT",
+                "TypeScript (Node.js)",
+                "Java, Spring Boot",
+                "REST API design",
+                "MongoDB, mongosh",
+                "PostgreSQL, JPA",
+                "JWT Authentication",
+                "Middleware & request handling",
+                "Data modeling (SQL & NoSQL)",
               ].map((skill) => (
                 <li
                   key={skill}
@@ -51,8 +53,8 @@ const Skills = () => {
                 "Redux Toolkit",
                 "Vite",
                 "TypeScript",
-                "Bootstrap",
-                "Tailwind",
+                "JavaScript",
+                "Bootstrap - Tailwind",
                 "HTML5 - CSS3",
               ].map((skill) => (
                 <li
@@ -67,11 +69,16 @@ const Skills = () => {
 
           <div>
             <h4 className="relative inline-block text-2xl font-bold text-black mb-8">
-              <span className="relative z-10 whitespace-nowrap">Tools</span>
+              <span className="relative z-10 whitespace-nowrap">UX, Usabilità & Accessibilità</span>
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
-              {["Git - GitHub", "Postman", "IntelliJ", "VSC"].map((skill) => (
+              {["Principi di UX Design,
+                "Responsive design e ottimizzazione multi-dispositivo",
+                "Usabilità e progettazione user-centered", 
+                "Accessibilità (WCAG 2.2)", 
+                "Testing con screen reader (NVDA)",
+                "Strumenti: WAVE, TotalValidator"].map((skill) => (
                 <li
                   key={skill}
                   className="px-4 py-2 bg-[#D4CAB6] text-black rounded font-medium"
@@ -85,12 +92,12 @@ const Skills = () => {
           <div>
             <h4 className="relative inline-block text-2xl font-bold text-black mb-8">
               <span className="relative z-10 whitespace-nowrap">
-                CMS / Deploy
+                Tools & Dev Environment
               </span>
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
-              {["OpenCMS", "WordPress", "Vercel", "Koyeb"].map((skill) => (
+              {["Git, GitHub", "Docker", "Postman", "Intelliji, VS Code"].map((skill) => (
                 <li
                   key={skill}
                   className="px-4 py-2 bg-[#D4CAB6] text-black rounded font-medium"
@@ -104,16 +111,16 @@ const Skills = () => {
           <div>
             <h4 className="relative inline-block text-2xl font-bold text-black mb-8">
               <span className="relative z-10 whitespace-nowrap">
-                Accessibilità
+                Deploy & CMS
               </span>
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
               {[
-                "WCAG 2.2",
-                "TotalValidator tool",
-                "NVDA - WAVE",
-                "Responsive Design",
+                "Vercel",
+                "Koyeb",
+                "WordPress",
+                "OpenCMS",
               ].map((skill) => (
                 <li
                   key={skill}
@@ -139,7 +146,6 @@ const Skills = () => {
             "Proattività",
             "Flessibilità",
             "Comunicazione",
-            "Gestione del tempo",
           ].map((skill) => (
             <li
               key={skill}
