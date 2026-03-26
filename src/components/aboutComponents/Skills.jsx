@@ -73,7 +73,7 @@ const Skills = () => {
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
-              {["Principi di UX Design,
+              {["Principi di UX Design",
                 "Responsive design e ottimizzazione multi-dispositivo",
                 "Usabilità e progettazione user-centered", 
                 "Accessibilità (WCAG 2.2)", 
