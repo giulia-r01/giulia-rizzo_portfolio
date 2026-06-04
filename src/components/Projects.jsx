@@ -35,6 +35,7 @@ const Projects = () => {
           >
             Visita
           </a>
+          {/* <p className="text-center inline-block px-4 py-2 bg-[#e4e5e0] text-black rounded-lg shadow-md hover:bg-[#d7d7d7]">In manutenzione</p> */}
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
