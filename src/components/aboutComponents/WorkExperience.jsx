@@ -2,17 +2,16 @@ const WorkExperience = () => {
   const experiences = [
     {
       title: "Sviluppatore Full Stack",
-      company:
-        "IoT Tecnologie - Focelda SpA",
+      company: "IoT Tecnologie - Focelda SpA",
       period: "ott 2025 - attuale",
       activities: [
-        "Contribuisco allo sviluppo e alla manutenzione del CRM aziendale Nex, utilizzato per la gestione dei processi interni",
-"Implemento funzionalità frontend e backend utilizzando React e TypeScript",
-"Sviluppo e aggiorno interfacce utente e layout in base ai requisiti funzionali",
-"Gestisco dati e integrazioni tramite MongoDB",
-"Utilizzo strumenti come Docker per la gestione degli ambienti di sviluppo",
-"Collaboro con il team tecnico per l’analisi e l’implementazione delle soluzioni",
-"Contribuisco al miglioramento dell’esperienza utente, portando competenze pregresse in ambito UX",
+        "Contribuisco allo sviluppo e alla manutenzione del gestionale aziendale Nex, utilizzato per la gestione dei processi interni",
+        "Implemento funzionalità frontend e backend utilizzando React e TypeScript",
+        "Sviluppo e aggiorno interfacce utente e layout in base ai requisiti funzionali",
+        "Gestisco dati e integrazioni tramite MongoDB",
+        "Utilizzo strumenti come Docker per la gestione degli ambienti di sviluppo",
+        "Collaboro con il team tecnico per l’analisi e l’implementazione delle soluzioni",
+        "Contribuisco al miglioramento dell’esperienza utente, portando competenze pregresse in ambito UX",
       ],
     },
     {
@@ -21,9 +20,12 @@ const WorkExperience = () => {
         "SSI Factory – per il Ministero dell’Economia e delle Finanze (MEF), Roma",
       period: "2019 - 2024",
       activities: [
-        "Coordinamento team, formazione nuove risorse",
+        "Ottimizzazione dei portali istituzionali in termini di accessibilità, usabilità e responsive design",
+        "Verifica della conformità agli standard WCAG",
+        "Analisi UX e miglioramento dell'esperienza utente e dei flussi di navigazione",
         "Gestione contenuti MEF (OpenCms, HTML, CSS, Bootstrap)",
-        "Ottimizzazione usabilità e accessibilità WCAG",
+        "Coordinamento operativo e formazione delle nuove risorse",
+        "Collaborazione con team multidisciplinari in contesti complessi della Pubblica Amministrazione",
       ],
     },
     {
@@ -31,8 +33,11 @@ const WorkExperience = () => {
       company: "Nagency srl, Roma",
       period: "2018 - 2019",
       activities: [
-        "Creazione siti WordPress responsive",
-        "Gestione contenuti e copy per i social",
+        "Realizzazione e personalizzazione di siti web responsive con WordPress, HTML e CSS",
+        "Redazione di articoli per blog e aree news",
+        "Scrittura di copy per pagine web, landing page, contenuti digitali e canali social",
+        "Ottimizzazione SEO dei contenuti pubblicati",
+        "Collaborazione con clienti e team interni per la definizione delle strategie di comunicazione digitale",
       ],
     },
   ]

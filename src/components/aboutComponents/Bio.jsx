@@ -17,30 +17,38 @@ const Bio = ({ showButton = false }) => {
           <span className="font-semibold text-[#D4CAB6]">Giulia Rizzo</span>,
           una{" "}
           <span className="font-semibold text-[#D4CAB6]">
-            Frontend & Fullstack Developer
+            Full Stack Developer
           </span>{" "}
-          appassionata di design elegante e funzionale.
+          con una particolare attenzione allo sviluppo frontend, alla UX e
+          all’accessibilità digitale.
         </p>
+
         <p className="pt-2">
-          Amo organizzare idee e trasformarle in esperienze digitali intuitive,
-          eleganti e{" "}
-          <span className="font-semibold text-[#D4CAB6]">accessibili</span> a
-          tutti.
+          Progetto e sviluppo applicazioni complete, dalle interfacce intuitive
+          e responsive alla logica backend, alle API REST e alla gestione dei
+          dati. Mi piace trasformare idee e requisiti in soluzioni{" "}
+          <span className="font-semibold text-[#D4CAB6]">
+            chiare, funzionali e curate
+          </span>
+          .
         </p>
+
         <p className="pt-2">
-          {" "}
-          Ogni progetto per me è un’occasione per combinare{" "}
+          Il frontend è l’ambito che mi appassiona di più, perché mi permette di
+          unire{" "}
           <span className="font-semibold text-[#D4CAB6]">
-            creatività e logica
+            creatività, logica e attenzione alle persone
           </span>
-          , creando strumenti chiari, funzionali e{" "}
+          . Per me l’accessibilità non è un’aggiunta finale, ma una parte
+          essenziale dello sviluppo di esperienze digitali davvero{" "}
           <span className="font-semibold text-[#D4CAB6]">
-            pensati per chi li usa
+            utilizzabili da tutti
           </span>
-          .{" "}
+          .
         </p>
-        <div className="mt-5 pt-5 flex flex-col md:flex-row md:justify-start md:items-center gap-3 w-auto">
-          {showButton && (
+
+        {showButton && (
+          <div className="mt-5 pt-5 flex flex-col md:flex-row md:justify-start md:items-center gap-3 w-auto">
             <HashLink
               smooth
               to="/about#work-experience"
@@ -48,8 +56,7 @@ const Bio = ({ showButton = false }) => {
             >
               Esperienze
             </HashLink>
-          )}
-          {showButton && (
+
             <HashLink
               smooth
               to="/about#education"
@@ -57,8 +64,7 @@ const Bio = ({ showButton = false }) => {
             >
               Formazione
             </HashLink>
-          )}
-          {showButton && (
+
             <HashLink
               smooth
               to="/about#skills"
@@ -66,8 +72,8 @@ const Bio = ({ showButton = false }) => {
             >
               Skills
             </HashLink>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   )

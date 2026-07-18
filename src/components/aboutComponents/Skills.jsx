@@ -49,6 +49,7 @@ const Skills = () => {
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
               {[
+                "Next",
                 "React",
                 "Redux Toolkit",
                 "Vite",
@@ -69,16 +70,20 @@ const Skills = () => {
 
           <div>
             <h4 className="relative inline-block text-2xl font-bold text-black mb-8">
-              <span className="relative z-10 whitespace-nowrap">UX, Usabilità & Accessibilità</span>
+              <span className="relative z-10 whitespace-nowrap">
+                UX, Usabilità & Accessibilità
+              </span>
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
-              {["Principi di UX Design",
+              {[
+                "Principi di UX Design",
                 "Responsive design e ottimizzazione multi-dispositivo",
-                "Usabilità e progettazione user-centered", 
-                "Accessibilità (WCAG 2.2)", 
+                "Usabilità e progettazione user-centered",
+                "Accessibilità (WCAG 2.2)",
                 "Testing con screen reader (NVDA)",
-                "Strumenti: WAVE, TotalValidator"].map((skill) => (
+                "Strumenti: WAVE, TotalValidator",
+              ].map((skill) => (
                 <li
                   key={skill}
                   className="px-4 py-2 bg-[#D4CAB6] text-black rounded font-medium"
@@ -97,14 +102,16 @@ const Skills = () => {
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
-              {["Git, GitHub", "Docker", "Postman", "Intelliji, VS Code"].map((skill) => (
-                <li
-                  key={skill}
-                  className="px-4 py-2 bg-[#D4CAB6] text-black rounded font-medium"
-                >
-                  {skill}
-                </li>
-              ))}
+              {["Git, GitHub", "Docker", "Postman", "Intelliji, VS Code"].map(
+                (skill) => (
+                  <li
+                    key={skill}
+                    className="px-4 py-2 bg-[#D4CAB6] text-black rounded font-medium"
+                  >
+                    {skill}
+                  </li>
+                ),
+              )}
             </ul>
           </div>
 
@@ -116,12 +123,7 @@ const Skills = () => {
               <span className="absolute bottom-1 left-2 w-full h-2 bg-[#D4CAB6] z-0"></span>
             </h4>
             <ul className="flex flex-wrap gap-4 list-none">
-              {[
-                "Vercel",
-                "Koyeb",
-                "WordPress",
-                "OpenCMS",
-              ].map((skill) => (
+              {["Vercel", "Koyeb", "WordPress", "OpenCMS"].map((skill) => (
                 <li
                   key={skill}
                   className="px-4 py-2 bg-[#D4CAB6] text-black rounded font-medium"

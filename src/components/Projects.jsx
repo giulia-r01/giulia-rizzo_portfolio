@@ -14,6 +14,28 @@ const Projects = () => {
           <div>
             <h3 className="relative inline-block text-3xl font-bold text-black mb-8 pt-5">
               <span className="relative z-10 whitespace-nowrap">
+                D&DAcademy
+              </span>
+              <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
+            </h3>
+            <img src="./img/D&DAcademy.png" alt="Mockup sito D&DAcademy" />
+            <p className="text-gray-600 my-4">
+              <strong>D&DAcademy</strong> – Piattaforma full-stack educativa per
+              imparare Dungeons & Dragons attraverso campagne narrative,
+              lezioni, quiz e combattimenti interattivi. Ho sviluppato il
+              backend con Spring Boot, PostgreSQL, JWT e API REST e il frontend
+              con Next.js, React, TypeScript e Tailwind CSS.
+            </p>
+          </div>
+          <p className="text-center inline-block px-4 py-2 bg-[#d7d7d7] text-black rounded-lg shadow-md">
+            In sviluppo
+          </p>
+        </div>
+
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
+          <div>
+            <h3 className="relative inline-block text-3xl font-bold text-black mb-8 pt-5">
+              <span className="relative z-10 whitespace-nowrap">
                 Just Breathe
               </span>
               <span className="absolute bottom-1 left-2 w-full h-3 bg-[#D4CAB6] z-0"></span>
