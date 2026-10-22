@@ -3,7 +3,7 @@ const WorkExperience = () => {
     {
       title: "Sviluppatore Full Stack",
       company: "IoT Tecnologie - Focelda SpA",
-      period: "ott 2025 - attuale",
+      period: "ott 2025 - ott 2026",
       activities: [
         "Contribuisco allo sviluppo e alla manutenzione del gestionale aziendale Nex, utilizzato per la gestione dei processi interni",
         "Implemento funzionalità frontend e backend utilizzando React e TypeScript",
