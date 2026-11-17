@@ -28,7 +28,7 @@ const Projects = () => {
             </p>
           </div>
           <p className="text-center inline-block px-4 py-2 bg-[#d7d7d7] text-black rounded-lg shadow-md">
-            In sviluppo
+            In collaudo
           </p>
         </div>
 
